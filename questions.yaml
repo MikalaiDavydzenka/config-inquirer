@@ -1,0 +1,9 @@
+- type: confirm
+  name: enable_external_domain
+  message: Do you want to use external domain
+
+- type: input
+  name: external_domain_name
+  message: Enter external domain name
+  default: example.com
+  when: enable_external_domain
